@@ -14,7 +14,7 @@ namespace TestProject
         public void Test1()
         {
             PizzaBO context = new PizzaBO();
-            int expectedValue = 5;
+            int expectedValue = 7;
             List<PizzaModel> pizzas = context.GetItems();
             int actualValue = 0;
             foreach (var p in pizzas)

@@ -9,7 +9,7 @@ namespace AutomationWithSelenium
     {
         static void Main(string[] args)
         {
-            using (IWebDriver driver = new ChromeDriver(@"C:\"))
+            using (IWebDriver driver = new ChromeDriver(@"E:\"))
             {
                 string url = "http://localhost:56854";
                 driver.Navigate().GoToUrl(url);
